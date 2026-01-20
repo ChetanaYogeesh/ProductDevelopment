@@ -58,10 +58,5 @@ To move this from a mockup to a high-scale platform, the architecture utilizes a
 * **Improved Win Rates:** By leveraging "External Enrichment," the firm can present a more data-driven narrative to prospective clients regarding their specific experience in a venue.
 * **Knowledge Democratization:** Breaks down silos between practice groups; a partner in New York can instantly see the success a partner in California had with a specific motion type.
 
----
-
-### **Next Step for Your Portfolio**
-
-Would you like me to draft a **technical API specification** for how the "External Enrichment" layer would communicate between Supabase and a third-party legal data provider?
 
 <img width="975" height="881" alt="Screenshot 2026-01-20 at 11 28 30 AM" src="https://github.com/user-attachments/assets/980c9701-7b86-4e7f-9bde-a069733b57e1" />
