@@ -1,6 +1,6 @@
-# Prototype different Products
+# Enterprise Data Platforms
 
-### Enterprise Data Platform for Legal Technology
+### LegalTech Data Platform
 
 #### App - https://treat-smile-77512290.figma.site/
 #### Repo - https://github.com/ChetanaYogeesh/Enterprisedataplatformlegaltech
