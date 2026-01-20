@@ -5,7 +5,7 @@
 #### App - https://treat-smile-77512290.figma.site/
 #### Repo - https://github.com/ChetanaYogeesh/Enterprisedataplatformlegaltech
 
-##### This app, which we can call **MatterIntel 360**, represents a high-maturity evolution of the "Golden Record" concept, applied specifically to the legal domain.
+### This app, which we can call **Matter Profile Intelligence 360**, represents a high-maturity evolution of the "Golden Record" concept, applied specifically to the legal domain.
 
 In my experience building customer data platforms (CDPs), the hardest part isn't collecting data—it’s the **normalization and orchestration** required to make that data actionable. This application solves that for legal professionals by merging internal operational data with external litigation intelligence.
 
