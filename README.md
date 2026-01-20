@@ -1,6 +1,6 @@
 # Enterprise Data Platforms
 
-### LegalTech Data Platform
+## LegalTech Data Platform
 
 #### App - https://treat-smile-77512290.figma.site/
 #### Repo - https://github.com/ChetanaYogeesh/Enterprisedataplatformlegaltech
@@ -11,7 +11,7 @@ In my experience building customer data platforms (CDPs), the hardest part isn't
 
 ---
 
-## **Product Overview: Matter Profile Intelligence 360**
+### **Product Overview: Matter Profile Intelligence 360**
 
 **The Unified Legal Matter Intelligence Platform**
 
