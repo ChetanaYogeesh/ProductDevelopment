@@ -1,6 +1,21 @@
-# Enterprise Data Platforms
+# Table of Contents
 
-## LegalTech Data Platform
+- [FreshMart – Grocery & More](#freshmart--grocery--more)
+- [LegalTech Data Platform](#legaltech-data-platform)
+
+---
+
+# [FreshMart – Grocery & More](https://github.com/ChetanaYogeesh/ProductManagement/blob/main/FreshMart%20%E2%80%93%20Grocery%20%26%20More)
+
+**Live Site:** [https://v0-grocery-ecommerce-website-58.vercel.app/](https://v0-grocery-ecommerce-website-58.vercel.app/)
+
+A full-featured, HEB-inspired grocery ecommerce website built with Next.js and deployed on Vercel. FreshMart covers the complete customer journey — from browsing the homepage to checking out.
+
+<img width="1863" height="865" alt="Screenshot 2026-02-27 at 11 27 47 AM" src="https://github.com/user-attachments/assets/eb1d66b9-110d-477d-ab88-640a5a45e896" />
+<img width="1317" height="976" alt="Screenshot 2026-02-27 at 11 28 19 AM" src="https://github.com/user-attachments/assets/d26d0ee2-0ae7-4fb9-bcc9-c452ee9e54fe" />
+
+
+# [LegalTech Data Platform](https://github.com/ChetanaYogeesh/ProductManagement/blob/main/LegalTech%20Data%20Platform)
 
 #### App - https://treat-smile-77512290.figma.site/
 #### Repo - https://github.com/ChetanaYogeesh/Enterprisedataplatformlegaltech
@@ -9,54 +24,5 @@ This app, which we can call **Matter Profile Intelligence 360**, represents a hi
 
 In my experience building customer data platforms (CDPs), the hardest part isn't collecting data—it’s the **normalization and orchestration** required to make that data actionable. This application solves that for legal professionals by merging internal operational data with external litigation intelligence.
 
----
-
-### **Product Overview: Matter Profile Intelligence 360**
-
-**The Unified Legal Matter Intelligence Platform**
-
-MatterIntel 360 is a production-grade data product designed to eliminate the manual "detective work" typically required for legal strategy and business development. It transforms fragmented data points into a **searchable, enriched, and standardized intelligence layer.**
-
-### ### 1. The "Golden Record" Architecture
-
-At the core of the app is a sophisticated data matching engine. Much like a Customer 360 view, the **Matter 360** view reconciles:
-
-* **Operational Data (Internal):** Ingests data from Practice Management Systems (PMS) regarding staffing, utilization, and responsible partners.
-* **External Intelligence (Enrichment):** Integrates with legal databases (e.g., PACER or LexisNexis) via API to pull motion activity, judge history, and procedural outcomes.
-* **The Normalization Engine:** A critical middle layer that resolves aliases (e.g., "Judge J. Smith" vs "John Smith") into a single unique ID, ensuring search results are 100% accurate.
-
----
-
-### ### 2. Key Functional Modules
-
-| Module | Capability | Business Value |
-| --- | --- | --- |
-| **Searchable Dashboard** | Multi-dimensional filtering across practice groups, jurisdictions, and courts. | **Instant Visibility:** Attorneys can find "who in the firm has argued before Judge X" in seconds. |
-| **Enriched Profiles** | Detailed views combining internal financial context with external litigation history. | **Strategy Optimization:** Use historical motion success rates to advise clients on litigation paths. |
-| **Pitch & RFP Engine** | Pre-populated profile exports for client development. | **Competitive Edge:** Generate data-backed evidence of firm experience for RFPs with zero manual cleanup. |
-| **Automated Refresh** | Daily synchronization via Supabase-driven pipelines. | **Data Trust:** Eliminates "stale data" skepticism common in legacy law firm systems. |
-
----
-
-### ### 3. Technical Implementation & Integration Specifics
-
-To move this from a mockup to a high-scale platform, the architecture utilizes a modern data stack:
-
-* **Backend & Persistence (Supabase):** * **PostgreSQL:** Handles the complex relational mapping between matters, judges, and partners.
-* **Edge Functions:** Used to trigger daily API calls to external legal repositories for real-time enrichment.
-* **Row-Level Security (RLS):** Crucial for legal environments to ensure sensitive financial context is only visible to authorized partners.
-
-
-* **The "Daily Sync" Logic:** * Instead of full database refreshes, the app uses **Change Data Capture (CDC)** to identify new motions or procedural events, updating only the affected "Golden Records."
-* **Semantic Search:** * Implementing a vector-based search allows attorneys to search for "cases similar to medical device liability in Delaware" even if those exact keywords aren't in the title.
-
----
-
-### ### 4. Strategic Business Outcomes
-
-* **Reduced Non-Billable Hours:** Automating the "Matter Profile" saves associates and BD teams hundreds of hours spent manually compiling litigation histories for pitches.
-* **Improved Win Rates:** By leveraging "External Enrichment," the firm can present a more data-driven narrative to prospective clients regarding their specific experience in a venue.
-* **Knowledge Democratization:** Breaks down silos between practice groups; a partner in New York can instantly see the success a partner in California had with a specific motion type.
-
-
 <img width="975" height="881" alt="Screenshot 2026-01-20 at 11 28 30 AM" src="https://github.com/user-attachments/assets/980c9701-7b86-4e7f-9bde-a069733b57e1" />
+
